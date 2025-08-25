@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration & Contact - Interpersonal Learning Cohorts Laboratory</title>
+    <meta name="description" content="Register for interpersonal learning cohorts or contact us with questions. Start your journey toward better relationships and communication skills today.">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo">ILC Laboratory</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Program</a></li>
+                <li><a href="outcomes.html">Learning Outcomes</a></li>
+                <li><a href="schedule.html">Schedule & Dates</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="fade-in">Registration & Contact</h1>
+            <p class="fade-in">Ready to begin your interpersonal learning journey? Let's get started.</p>
+        </div>
+    </section>
+
+    <!-- Registration Process -->
+    <section class="section">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2>How to Register</h2>
+                <p>Simple steps to secure your spot in an upcoming cohort</p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin: 3rem 0;">
+                <div class="outcome-card">
+                    <div style="background: #2980b9; color: white; border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem; font-weight: bold;">1</div>
+                    <h3>Submit Application</h3>
+                    <p>Complete the registration form below with your preferred schedule and package choice.</p>
+                </div>
+
+                <div class="outcome-card">
+                    <div style="background: #2980b9; color: white; border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem; font-weight: bold;">2</div>
+                    <h3>Consultation Call</h3>
+                    <p>We'll schedule a brief 15-minute call to discuss your goals and answer any questions.</p>
+                </div>
+
+                <div class="outcome-card">
+                    <div style="background: #2980b9; color: white; border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem; font-weight: bold;">3</div>
+                    <h3>Confirm & Pay</h3>
+                    <p>Reserve your spot with payment and receive session links and preparation materials.</p>
+                </div>
+
+                <div class="outcome-card">
+                    <div style="background: #2980b9; color: white; border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem; font-weight: bold;">4</div>
+                    <h3>Start Learning</h3>
+                    <p>Join your first session and begin transforming your interpersonal relationships.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Form -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2>Registration Form</h2>
+                <p>Tell us about yourself and your learning goals</p>
+            </div>
+
+            <div style="max-width: 700px; margin: 0 auto;">
+                <form id="contact-form" class="card">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Optional - for consultation call">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="timezone">Your Time Zone *</label>
+                        <select id="timezone" name="timezone" required>
+                            <option value="">Select your time zone</option>
+                            <option value="EST">Eastern Time (EST) - New York</option>
+                            <option value="CST">Central Time (CST) - Chicago</option>
+                            <option value="MST">Mountain Time (MST) - Denver</option>
+                            <option value="PST">Pacific Time (PST) - Los Angeles</option>
+                            <option value="GMT">Greenwich Mean Time (GMT) - London</option>
+                            <option value="CET">Central European Time (CET) - Berlin</option>
+                            <option value="IST">Israel Standard Time (IST) - Jerusalem</option>
+                            <option value="AEST">Australian Eastern Time (AEST) - Sydney</option>
+                            <option value="other">Other (please specify in comments)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="package">Preferred Package *</label>
+                        <select id="package" name="package" required>
+                            <option value="">Select a package</option>
+                            <option value="6-sessions">Foundation Package - 6 Sessions ($599)</option>
+                            <option value="10-sessions">Comprehensive Package - 10 Sessions ($899) - Most Popular</option>
+                            <option value="12-sessions">Mastery Package - 12 Sessions ($1,099)</option>
+                            <option value="unsure">Not sure - help me decide</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="schedule">Preferred Day(s) *</label>
+                        <div style="margin-top: 0.5rem;">
+                            <label style="display: block; font-weight: normal; margin-bottom: 0.5rem;">
+                                <input type="checkbox" name="schedule" value="tuesday" style="margin-right: 0.5rem;">
+                                Tuesday (7:30-9:00 PM EST / 3:30-5:00 PM Israel)
+                            </label>
+                            <label style="display: block; font-weight: normal; margin-bottom: 0.5rem;">
+                                <input type="checkbox" name="schedule" value="wednesday" style="margin-right: 0.5rem;">
+                                Wednesday (7:30-9:00 PM EST / 3:30-5:00 PM Israel)
+                            </label>
+                            <label style="display: block; font-weight: normal; margin-bottom: 0.5rem;">
+                                <input type="checkbox" name="schedule" value="thursday" style="margin-right: 0.5rem;">
+                                Thursday (7:30-9:00 PM EST / 3:30-5:00 PM Israel)
+                            </label>
+                            <label style="display: block; font-weight: normal;">
+                                <input type="checkbox" name="schedule" value="flexible" style="margin-right: 0.5rem;">
+                                I'm flexible with any day
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="experience">Previous Group Experience</label>
+                        <select id="experience" name="experience">
+                            <option value="">Select your experience level</option>
+                            <option value="none">No previous group therapy/learning experience</option>
+                            <option value="some">Some group therapy or workshop experience</option>
+                            <option value="extensive">Extensive group work experience</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="goals">Learning Goals *</label>
+                        <textarea id="goals" name="goals" placeholder="What do you hope to achieve through this program? What specific interpersonal challenges would you like to address?" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="found-us">How did you hear about us?</label>
+                        <select id="found-us" name="found-us">
+                            <option value="">Select an option</option>
+                            <option value="search">Google/Online search</option>
+                            <option value="referral">Referral from friend/colleague</option>
+                            <option value="professional">Professional referral</option>
+                            <option value="social-media">Social media</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Additional Comments or Questions</label>
+                        <textarea id="message" name="message" placeholder="Any additional information you'd like to share or specific questions about the program..."></textarea>
+                    </div>
+
+                    <div style="margin: 2rem 0; padding: 1rem; background: #f8f9fa; border-radius: 5px;">
+                        <label style="display: block; font-weight: normal;">
+                            <input type="checkbox" name="consent" required style="margin-right: 0.5rem;">
+                            I understand this is a group learning environment and consent to participating in interpersonal exercises and receiving feedback from other participants. *
+                        </label>
+                    </div>
+
+                    <div style="margin: 1rem 0; padding: 1rem; background: #f8f9fa; border-radius: 5px;">
+                        <label style="display: block; font-weight: normal;">
+                            <input type="checkbox" name="privacy" required style="margin-right: 0.5rem;">
+                            I agree to the confidentiality terms and understand that all group interactions remain private and confidential. *
+                        </label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.1rem; padding: 1.2rem;">
+                        Submit Registration
+                    </button>
+
+                    <p style="text-align: center; margin-top: 1rem; color: #666; font-size: 0.9rem;">
+                        <em>We'll respond within 24 hours to schedule your consultation call.</em>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="section">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2>Contact Information</h2>
+                <p>Have questions? We're here to help.</p>
+            </div>
+
+            <div class="card-grid">
+                <div class="card text-center">
+                    <div class="card-icon">📧</div>
+                    <h3>Email</h3>
+                    <p><strong>info@ilclaboratory.com</strong><br>
+                    Primary contact for all inquiries<br>
+                    Response time: Within 24 hours</p>
+                </div>
+
+                <div class="card text-center">
+                    <div class="card-icon">📞</div>
+                    <h3>Consultation Call</h3>
+                    <p><strong>Scheduled after registration</strong><br>
+                    Free 15-minute consultation<br>
+                    Discuss goals and answer questions</p>
+                </div>
+
+                <div class="card text-center">
+                    <div class="card-icon">💬</div>
+                    <h3>Support</h3>
+                    <p><strong>Ongoing participant support</strong><br>
+                    Technical and program questions<br>
+                    Available during business hours</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2>Frequently Asked Questions</h2>
+                <p>Quick answers to common questions about registration and participation</p>
+            </div>
+
+            <div style="max-width: 800px; margin: 0 auto;">
+                <div class="card">
+                    <h3>What if I'm not sure which package is right for me?</h3>
+                    <p>No problem! During our consultation call, we'll discuss your goals, schedule, and learning preferences to help you choose the package that best fits your needs. You can also start with the Foundation package and add sessions later if desired.</p>
+                </div>
+
+                <div class="card" style="margin-top: 2rem;">
+                    <h3>Can I change my schedule after registering?</h3>
+                    <p>Yes, we offer flexibility. If your schedule changes, we can help you transfer to a different day or even pause your program for up to 30 days. We also provide session recordings as backup.</p>
+                </div>
+
+                <div class="card" style="margin-top: 2rem;">
+                    <h3>What if I miss a session?</h3>
+                    <p>Life happens! We provide session recordings for review, and when possible, we can arrange make-up sessions or help you join a parallel cohort for that week's session.</p>
+                </div>
+
+                <div class="card" style="margin-top: 2rem;">
+                    <h3>Is this suitable for people with no group experience?</h3>
+                    <p>Absolutely! Many participants are new to group learning. Our structured approach and clear guidelines make it comfortable for beginners while still valuable for those with previous experience.</p>
+                </div>
+
+                <div class="card" style="margin-top: 2rem;">
+                    <h3>What technology do I need?</h3>
+                    <p>You'll need a computer or tablet with a webcam, microphone, and stable internet connection. We use standard video conferencing software that works on all devices. Technical support is available if needed.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Information</h3>
+                    <p>Ready to begin your interpersonal learning journey?</p>
+                    <p>Email: info@ilclaboratory.com</p>
+                    <p>Available for consultations during business hours</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Session Times</h3>
+                    <p>7:30 - 9:00 PM EST</p>
+                    <p>3:30 - 5:00 PM Israel Time</p>
+                    <p>Tuesday, Wednesday, Thursday</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Learning Approach</h3>
+                    <p>Structured group laboratory setting</p>
+                    <p>Evidence-based interpersonal learning</p>
+                    <p>Real-world application focus</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Interpersonal Learning Cohorts Laboratory. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
